@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Londrina+Solid&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,19 +7,38 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --white: #fff;
+  --white-gray: #CCC;
+  --black-gray: #636363;
+  --light-black: #191919;
+  --black: #161616;
+  --yellow: #FFD911;
+
+  --font-inter: "Inter", sans-serif;
+  --font-londrina: "Londrina Solid", sans-serif;
+  --font-island: "Island Moments", cursive;
+  --font-weight-black: 800;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --white: #fff;
+    --white-gray: #CCC;
+    --black-gray: #636363;
+    --light-black: #191919;
+    --black: #161616;
+    --yellow: #FFD911;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-island);
 }
 
 @layer utilities {
