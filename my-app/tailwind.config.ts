@@ -11,6 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        white: "var(--white)",
+        whiteGray: "var(--white-gray)",
+        blackGray: "var(--black-gray)",
+        lightBlack: "var(--light-black)",
+        black: "var(--black)",
+        yellow: "var(--yellow)",
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        londrina: ['Londrina Solid', 'sans-serif'],
+        island: ['Island Moments', 'cursive'],
       },
     },
   },
