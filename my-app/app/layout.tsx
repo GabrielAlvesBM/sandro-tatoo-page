@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className="{inter.className} bg-lightBlack"
+        className="{inter.className} bg-lightBlack selection:bg-selectedColor selection:text-black cursor-default"
       >
         <header className="flex justify-between items-center mx-20 mt-10 mb-4 font-londrina text-2xl">
         <a href="/" className="leading-5">Sandro <span className="text-yellow">Luz</span><br></br>Tatoo<br></br>Shop</a>
@@ -33,11 +33,11 @@ export default function RootLayout({
         </nav>
         </header>
 
-        <main>
+        <main className="mx-20 my-16">
           {children}
         </main>
         
-        <footer className="absolute bottom-0 w-full p-4 bg-black">
+        <footer className="fixed bottom-0 w-full p-4 bg-black">
         <ul className="flex gap-6 ml-36 text-[0.7rem] text-blackGray">
           <li className="relative before:content-[''] before:absolute before:right-[-15px] before:top-1/2 before:-translate-y-1/2 before:rounded-full before:size-[5px] before:bg-yellow">Sandro Luz Tatoo Shop</li>
           <li className="relative before:content-[''] before:absolute before:right-[-15px] before:top-1/2 before:-translate-y-1/2 before:rounded-full before:size-[5px] before:bg-yellow">Rua Limoeiro, 1000 - Catalão - SP</li>

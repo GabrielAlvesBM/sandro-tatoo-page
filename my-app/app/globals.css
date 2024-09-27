@@ -8,12 +8,14 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --white: #fff;
-  --white-gray: #CCC;
+  --white: #ffffff;
+  --white-gray: #CCCCCC;
   --black-gray: #636363;
   --light-black: #191919;
   --black: #161616;
   --yellow: #FFD911;
+
+  --selected-color: #FFD911;
 
   --font-inter: "Inter", sans-serif;
   --font-londrina: "Londrina Solid", sans-serif;

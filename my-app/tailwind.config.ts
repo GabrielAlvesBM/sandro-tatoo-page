@@ -17,6 +17,8 @@ const config: Config = {
         lightBlack: "var(--light-black)",
         black: "var(--black)",
         yellow: "var(--yellow)",
+
+        selectedColor: "var(--selected-color)",
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
