@@ -15,9 +15,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className="{inter.className} bg-lightBlack selection:bg-selectedColor selection:text-black cursor-default"
+        className="{inter.className} bg-lightBlack selection:bg-selectedColor selection:text-black cursor-default overflow-x-hidden"
       >
-        <header className="flex justify-between items-center mx-20 mt-10 mb-4 font-londrina text-2xl">
+        <header className="flex flex-col justify-between items-start gap-2 mx-10 mt-10 mb-20 font-londrina text-2xl md:flex-row md:items-center md:mx-20 md:mb-4">
         <a href="/" className="leading-5">Sandro <span className="text-yellow">Luz</span><br></br>Tatoo<br></br>Shop</a>
 
         <nav>
@@ -33,7 +33,7 @@ export default function RootLayout({
         </nav>
         </header>
 
-        <main className="mx-20 my-16">
+        <main className="mx-10 md:mx-20 md:my-16">
           {children}
         </main>
         
