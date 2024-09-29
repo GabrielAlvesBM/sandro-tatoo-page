@@ -1,4 +1,3 @@
-import { title } from 'process';
 import Article from './Article';
 
 export default function Servicos() {
@@ -23,9 +22,9 @@ export default function Servicos() {
 
     return(
         <>
-            <h1 className="text-yellow font-black text-3xl indent-2">Serviços</h1>
+            <h1 className="text-yellow font-black text-3xl text-center indent-2 md:text-left">Serviços</h1>
 
-            <section className='flex gap-[76px] my-[11vh]'>
+            <section className='grid flex-col flex-wrap gap-[76px] max-w-[300px] mx-auto my-[11vh] mt-5 mb-20 text-center md:grid-cols-2 md:max-w-none lg:flex lg:flex-row lg:flex-nowrap lg:my-[14vh] lg:text-left lg:max-w-none'>
                 {articles.map((article, index) => (
                   <Article key={index} title={article.title} content={article.content}/>
                 ))}
