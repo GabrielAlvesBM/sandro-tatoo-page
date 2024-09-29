@@ -4,8 +4,22 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sandro Luz Tatoo",
+  title: "Sandro Luz",
   description: "Página demonstrativa do tatuador Sandro Luz.",
+  keywords: "tatuagens, serviços de tatuagem, Sandro Luz, arte corporal",
+  authors: [{name: "Gabriel Alves"}],
+  openGraph: {
+    title: "Sandro Luz | Tatoo",
+    description: "Contacte os serviços oferecidos por Sandro Luz em tatuagens personalizadas.",
+    url: "https://localhost:3000",
+    images: [{
+      url: "https://localhost:3000/images/portrait-colored.png",
+      width: 800,
+      height: 600,
+      alt: "Perfil do Sandro",
+    }],
+    siteName: "Sandro Luz Tatoo Shop",
+  },
 };
 
 export default function RootLayout({
