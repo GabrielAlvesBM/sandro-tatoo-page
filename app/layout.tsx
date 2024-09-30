@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from 'next/script';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,7 +34,7 @@ export default function RootLayout({
         className="{inter.className} bg-lightBlack selection:bg-selectedColor selection:text-black cursor-default overflow-x-hidden"
       >
         <header className="flex flex-col justify-between items-start gap-2 mx-10 mt-10 mb-20 font-londrina text-2xl md:flex-row md:items-center md:mx-20 md:mb-4">
-        <Link href="/" className="leading-5">Sandro <span className="text-yellow">Luz</span><br></br>Tatoo<br></br>Shop</Link>
+        <Link href="/" className="home leading-5">Sandro <span className="text-yellow">Luz</span><br></br>Tatoo<br></br>Shop</Link>
 
         <nav>
           <ul className="flex justify-between items-center gap-4 tracking-wide text-xl sm:text-2xl">
@@ -58,6 +59,7 @@ export default function RootLayout({
           <li><Image className='inline translate-y-[-1px]' src="/images/icon-whatsapp.png" alt='Whatsapp Icon' width={16} height={16} />(+55 11) 99999 9999</li>
         </ul>
         </footer>
+        <Script src="/scripts/navClicked.js" strategy='lazyOnload'/>
       </body>
     </html>
   );
