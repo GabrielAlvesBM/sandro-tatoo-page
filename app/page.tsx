@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
         src="/images/tatoo-bg.png" alt="Background Tatoo" width={1037} height={289}
       />
 
-      <div className='absolute left-6 top-[35%] text-[2.7em] font-inter font-black text-blackGray sm:left-32 sm:text-[3.7em]'>
+      <div className='absolute left-6 top-[40%] text-[2.7em] font-inter font-black text-blackGray sm:top-[38%] sm:left-32 sm:text-[3.7em]'>
       <h1>INSPIRE-SE</h1>
       <h1>EXPRESSE-SE</h1>
       <h1 className='text-yellow'>TATUE-SE</h1>

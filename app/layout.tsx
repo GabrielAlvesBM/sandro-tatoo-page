@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className="{inter.className} bg-lightBlack selection:bg-selectedColor selection:text-black cursor-default overflow-x-hidden"
       >
-        <header className="flex flex-col justify-between items-start gap-2 mx-10 mt-10 mb-20 font-londrina text-2xl md:flex-row md:items-center md:mx-20 md:mb-4">
+        <header className="flex flex-col justify-between items-start gap-6 mx-10 mt-10 mb-20 font-londrina text-2xl md:flex-row md:items-center md:mx-20 md:mb-4">
         <Link href="/" className="home leading-5">Sandro <span className="text-yellow">Luz</span><br></br>Tatoo<br></br>Shop</Link>
 
         <nav>

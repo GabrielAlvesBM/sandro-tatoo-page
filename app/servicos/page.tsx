@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import React from 'react';
 import Article from './Article';
 
 export const metadata: Metadata = {
