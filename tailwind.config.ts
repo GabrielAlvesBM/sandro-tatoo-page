@@ -19,6 +19,8 @@ const config: Config = {
         yellow: "var(--yellow)",
 
         selectedColor: "var(--selected-color)",
+        btnShadow: "var(--btn-shadow)",
+        btn: "var(--btn)",
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
