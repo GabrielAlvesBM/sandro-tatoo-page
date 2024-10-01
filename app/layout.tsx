@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Script from 'next/script';
+import Script from 'next/script'; 
 import Image from "next/image";
 import Link from "next/link";
 
