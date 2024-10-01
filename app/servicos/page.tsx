@@ -5,7 +5,7 @@ import Article from './Article';
 export const metadata: Metadata = {
     title: "Serviços",
     description: "Serviços oferecidos por Sandro Luz.",
-  };
+};
 
 export default function Servicos() {
     const articles = [

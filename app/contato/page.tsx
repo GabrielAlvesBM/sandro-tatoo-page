@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+    title: "Contato",
+    description: "Entre em Contato Com Sandro Luz.",
+};
 
 export default function Contato() {
     return (

@@ -1,5 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+    title: "Sobre Mim",
+    description: "Apresentação rápida de quem é Sandro Luz.",
+};
 
 export default function Sobre() {
     return (

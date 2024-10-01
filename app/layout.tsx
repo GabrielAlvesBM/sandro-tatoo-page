@@ -5,7 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sandro Luz",
+  title: {
+    absolute  : "",
+    default   : "Sandro Luz",
+    template  : "%s | Sandro Luz"
+  },
   description: "Página demonstrativa do tatuador Sandro Luz.",
   keywords: "tatuagens, serviços de tatuagem, Sandro Luz, arte corporal",
   authors: [{name: "Gabriel Alves"}],
