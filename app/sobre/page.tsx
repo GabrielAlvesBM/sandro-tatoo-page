@@ -21,15 +21,6 @@ export default function Sobre() {
 
                     <h2 className="mb-4 font-island text-3xl text-center lg:text-left">Sandro Luz</h2>
                 </article>
-                
-                <article className="relative h-[350px] translate-y-4 overflow-y-hidden lg:w-full lg:h-[60vh] lg:overflow-visible">
-                    <Image className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-[350px] lg:fixed lg:bottom-0 lg:h-[100%] lg:w-fit lg:translate-y-0 lg:object-cover'
-                        src="/images/portrait-colored.png"
-                        width={325}
-                        height={325}
-                        alt="Sandro Luz Portrait"
-                    />
-                </article>
             </section>
         </>
     );
